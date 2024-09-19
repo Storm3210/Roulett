@@ -6,7 +6,7 @@ number = Convert.ToInt32(input);
 
 
 int number2;
-Console.WriteLine("Please pick a number or a color");
+Console.WriteLine("Please pick a number between 1-30");
 string input2 = Console.ReadLine();
 number2 = Convert.ToInt32(input2);
 
@@ -22,7 +22,7 @@ Console.WriteLine(number3);
 if(number3 == number2) {
     Console.WriteLine("yay you won!!!!");
 } else {
-    Console.WriteLine("better luck next time :(");
+    Console.WriteLine("better luck next time :(  T_T");
 }
 
 
