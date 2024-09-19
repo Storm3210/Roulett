@@ -12,7 +12,7 @@ number2 = Convert.ToInt32(input2);
 
 
 Random rand = new Random();
-Console.WriteLine(rand.Next(1, 30));
+Console.WriteLine(rand.Next());
 
 int number3;
 number3 = rand.Next(1, 30);
@@ -20,9 +20,9 @@ Console.WriteLine(number3);
 
 
 if(number3 == number2) {
-    Console.WriteLine("yay you won");
+    Console.WriteLine("yay you won!!!!");
 } else {
-    Console.WriteLine("better luck next time");
+    Console.WriteLine("better luck next time :(");
 }
 
 
