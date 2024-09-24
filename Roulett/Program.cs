@@ -20,7 +20,11 @@ int number3;
 number3 = rand.Next(1, 30);
 Console.WriteLine(number3);
 
+Random rand2 = new Random();
 
+string text4;
+text4 = rand2.Next(text, text2, text3);
+Console.WriteLine(text4);
 
 if(number3 == number2) {
     Console.WriteLine("yay you won!!!! ^u^");
