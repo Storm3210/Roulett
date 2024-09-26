@@ -26,7 +26,7 @@ string text4;
 text4 = rand2.Next(text, text2, text3);
 Console.WriteLine(text4);
 
-if(number3 == number2) {
+if(number3 == number2 || text4 == text || text4 == text2 || text4 == text3) {
     Console.WriteLine("yay you won!!!! ^u^");
 } else {
     Console.WriteLine("better luck next time :(  T_T");
