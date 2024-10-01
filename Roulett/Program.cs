@@ -1,4 +1,6 @@
 ﻿
+using System.Xml.Schema;
+
 int number;
 Console.WriteLine("How much money do you want to bet");
 string input = Console.ReadLine();
@@ -26,14 +28,14 @@ bool won = false;
 
 if (input2 == "Red")
 {
-
+   
 }
 else if (input2 == "Black")
 {
 
 }
-else if (input2 == "Green") { 
-
+else if (input2 == "Green") {
+   
 }else
 {
     number2 = Convert.ToInt32(input2);
