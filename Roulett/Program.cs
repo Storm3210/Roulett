@@ -59,7 +59,7 @@ else if (input2 == "Green") {
 
 if (won)
 {
-    Console.WriteLine("yay you won 20$!!!! ^u^");
+    Console.WriteLine("yay you won 20$!!!!! ^u^");
 }
 else
 {
