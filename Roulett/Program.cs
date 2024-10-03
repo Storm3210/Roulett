@@ -11,7 +11,7 @@ int number2;
 string text = "Red";
 string text2 = "Black";
 string text3 = "Green";
-Console.WriteLine("Please pick a number between 1-30 or a color between Red, Black or Green");
+Console.WriteLine("Please pick a number between 0-30 or a color between Red, Black or Green");
 string input2 = Console.ReadLine();
 
 
@@ -21,21 +21,30 @@ string input2 = Console.ReadLine();
 Random rand = new Random();
 
 int number3;
-number3 = rand.Next(1, 30);
+number3 = rand.Next(0, 30);
 Console.WriteLine(number3);
 
 bool won = false;
 
 if (input2 == "Red")
 {
-   
+    if(number3 % 2 == 1)
+    {
+        won = true;
+    }
 }
 else if (input2 == "Black")
 {
-
+    if(number3 % 0 ==1)
+    {
+        won = true;
+    }
 }
 else if (input2 == "Green") {
-   
+   if(number3 == 0)
+    {
+        won = true;
+    }
 }else
 {
     number2 = Convert.ToInt32(input2);
